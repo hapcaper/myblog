@@ -1009,7 +1009,7 @@
       <workItem from="1490798838955" duration="3758000" />
       <workItem from="1490803448261" duration="50000" />
       <workItem from="1490834451151" duration="13985000" />
-      <workItem from="1490869947752" duration="7028000" />
+      <workItem from="1490869947752" duration="7048000" />
     </task>
     <task id="LOCAL-00001" summary="测试修改">
       <created>1490836339882</created>
@@ -1046,11 +1046,18 @@
       <option name="project" value="LOCAL" />
       <updated>1490878582903</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修复到toIndex.do会进入已经删除的blog的bug&#10;下一步尝试自己造轮子（UI）">
+      <created>1490878810367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1490878810367</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53706000" />
+    <option name="totallyTimeSpent" value="53726000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
