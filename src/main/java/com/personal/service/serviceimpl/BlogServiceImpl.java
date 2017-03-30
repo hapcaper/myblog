@@ -53,12 +53,12 @@ public class BlogServiceImpl implements BlogService {
 		deleteBlogById(id);
 		return 0;
 	}
-	
-	
-	
 
-	
+    @Override
+    public Blog findFirst1ByStatus(String status) {
+	    Blog blog = blogDao.findFirst1ByStatus(status);
+        return blog;
+    }
 
-	
-	
+
 }

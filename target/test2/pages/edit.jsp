@@ -72,7 +72,7 @@
 		</h1>
 		
 		<c:forEach items="${bloglist }" var="blog">
-				  <a href="toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
+            <a href="toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
 					<a href="deleteBlog.do?id=${blog.id }">删除</a>
 				<br>
 		</c:forEach>
@@ -156,6 +156,7 @@
 <!-- wangEditor -->
 <script type="text/javascript" src="dist/js/lib/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="dist/js/wangEditor.min.js"></script>
+<script type="text/javascript" src="../myjs/util.js"></script>
 <script type="text/javascript">
 	$(function() {
 		var editor = new wangEditor('div1');
@@ -207,6 +208,12 @@ function submit(){
   		  }); */
 
 }
+
+//function get_blog_to_edit(blogid) {
+//    $.getJSON("http://127.0.0.1:8080/myblog/getBlogToEdit.do?id="+blogid,function (data) {
+//        set_content_in_editor(data.content);
+//    })
+//}
 
 </script>
 </body>
