@@ -86,11 +86,167 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/docs/assets/img/footer/logo.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/docs/assets/img/getting-started/icomoon_import.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/docs/assets/img/video/poster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/control/BlogController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/control/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/dao/BlogDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/entity/Blog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/service/BlogService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/service/serviceimpl/BlogServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/personal/service/serviceimpl/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/font/fontawesome-webfont-.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/font/fontawesome-webfont-v=3.2.1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/font/fontawesome-webfont-v=3.2.1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/font/fontawesome-webfont-v=3.2.1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/img/c1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/img/c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/img/c3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/img/header-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/control/BlogController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/control/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/dao/BlogDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/dao/UserDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/entity/Blog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/entity/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/service/BlogService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/service/serviceimpl/BlogServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/personal/service/serviceimpl/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/fonts/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/glyphicons/flat-ui-icons-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/glyphicons/flat-ui-icons-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/glyphicons/flat-ui-icons-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-black.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-black.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-black.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bolditalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bolditalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bolditalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Chat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Compas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Gift-Box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Infinity-Loop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Pensils.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Pocket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Retina-Ready.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Toilet-Paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/png/Watches.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/font/fontawesome-webfont-.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/font/fontawesome-webfont-v=3.2.1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/font/fontawesome-webfont-v=3.2.1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/font/fontawesome-webfont-v=3.2.1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/img/c1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/img/c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/img/c3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/img/header-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/fonts/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/fonts/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/fonts/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/glyphicons/flat-ui-icons-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/glyphicons/flat-ui-icons-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/glyphicons/flat-ui-icons-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-black.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-black.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-black.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bolditalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bolditalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bolditalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Chat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Compas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Gift-Box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Infinity-Loop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Pensils.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Pocket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Retina-Ready.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Toilet-Paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/png/Watches.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/login/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/login/imac-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/login/imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/tile/ribbon-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/tile/ribbon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/vendor/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-pic-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-pic-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-pic-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-pic-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-pic-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser-pic-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/browser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/html-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/logo-mask-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/logo-mask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/demo/video.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/example-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/footer/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/getting-started/icomoon_import.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/img/video/poster.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_war.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_war_exploded.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/test2_war.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/test2_war_exploded.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/87a3bc92-95e0-41e3-ba53-39221cd6e9c0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/e33b81b3-a2e8-4ace-9465-23fff39fa8c6.xml" />
@@ -126,6 +282,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myblog.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/personal/control/BlogController.java" />
@@ -239,6 +396,148 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/edit.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/conf/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/conf/dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/conf/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/conf/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/conf/spring-mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/Chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/assets/js/smoothscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/conf/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/conf/dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/conf/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/conf/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/conf/spring-mybatis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/mapper/BlogMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/css/wangEditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/css/wangEditor.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/css/wangEditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/js/lib/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/js/lib/jquery-2.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/js/wangEditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist/js/wangEditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/flat-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/flat-ui.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/flat-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/glyphicons/flat-ui-icons-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/glyphicons/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-bolditalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-italic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/fonts/lato/lato-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/svg/book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/dist2/img/icons/svg/calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/Chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/assets/js/smoothscroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/css/wangEditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/css/wangEditor.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/css/wangEditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/fonts/icomoon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/js/lib/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/js/lib/jquery-2.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/js/wangEditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist/js/wangEditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/flat-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/flat-ui.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/flat-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/vendor/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/css/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/glyphicons/flat-ui-icons-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/glyphicons/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-bolditalic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-italic.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/fonts/lato/lato-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/book.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/chat.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/clipboard.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/clocks.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/compas.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/gift-box.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/loop.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/map.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/paper-bag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/pencils.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/retina.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/ribbon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/img/icons/svg/toilet-paper.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/flat-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/flat-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/vendor/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/vendor/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/vendor/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/vendor/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/dist2/js/vendor/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/demo.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/docs.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/src/demo.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/src/docs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/css/src/prettyprint.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/js/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/assets/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/components.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/dropdowns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/forms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/navbar-fixed-top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/navbar-static-top.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/navbars-with-elements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/navbars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/radiocheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/switches.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/tagsinput.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/thumbnails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/tiles.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/todo-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/tooltips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/examples/vertical-slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/getting-started.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/docs/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/pages/edit.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/pages/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/myblog/pages/login.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -1260,12 +1559,12 @@
       <workItem from="1490777863690" duration="4803000" />
       <workItem from="1490798838955" duration="3758000" />
       <workItem from="1490803448261" duration="50000" />
-      <workItem from="1490834451151" duration="1289000" />
+      <workItem from="1490834451151" duration="1407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33982000" />
+    <option name="totallyTimeSpent" value="34100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
