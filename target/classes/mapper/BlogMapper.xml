@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.personal.dao.BlogDao">
+    
+    
+    <select id="select_Id_Title" resultType="Blog">
+    
+    select id,title from blog where status=1
+    </select>
+    
+    <select id="selectBlogById"  resultType="Blog">
+		select * from blog where id = #{id}    
+    </select>
+    <select id="selectAll" resultType="Blog">
+
+        SELECT
+          *
+        FROM
+            blog
+      
+    </select>
+    
+   <!--  public List<Blog> selectAllByAuthor(String author);
+		public int insertBlog(Blog blog);
+		public  int updateBlog(Blog blog); -->
+	
+	<update id="deleteBlogById">
+		update blog 
+		<set >
+		status = 0
+		</set>
+		 where Id = #{id}
+	</update>
+<insert id="insertBlog" >
+ insert into blog(
+ title,content,date,author,status)
+    value (
+     #{title},
+      #{content}, 
+      #{date},
+       #{author},
+        #{status}
+      )
+</insert>
+
+
+ <update id="updateBlog" parameterType="Blog" >
+    update blog
+    <set >
+      <if test="title != null" >
+        title = #{title},
+      </if>
+      <if test="content != null" >
+        content = #{content},
+      </if>
+      <if test="date != null" >
+        date = #{date},
+      </if>
+      <if test="author != null" >
+        author = #{author},
+      </if>
+      <if test="status != null" >
+        status = #{status},
+      </if>
+    </set>
+    where Id = #{id}
+  </update>
+
+
+ 
+</mapper>

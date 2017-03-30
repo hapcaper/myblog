@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="myblog@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="myblog">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bookstore"/>
+    <schema id="4" parent="1" name="device"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="lll"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="project_3"/>
+    <schema id="10" parent="1" name="race"/>
+    <schema id="11" parent="1" name="sivc"/>
+    <schema id="12" parent="1" name="test"/>
+    <schema id="13" parent="1" name="user"/>
+    <table id="14" parent="2" name="blog">
+      <Comment>博文</Comment>
+    </table>
+    <table id="15" parent="2" name="user"/>
+    <column id="16" parent="14" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="17" parent="14" name="title">
+      <Position>2</Position>
+      <Comment>博文标题</Comment>
+      <DataType>varchar(64)|0</DataType>
+    </column>
+    <column id="18" parent="14" name="content">
+      <Position>3</Position>
+      <Comment>博文内容</Comment>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="19" parent="14" name="date">
+      <Position>4</Position>
+      <Comment>日期</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="20" parent="14" name="author">
+      <Position>5</Position>
+      <Comment>作者</Comment>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="21" parent="14" name="status">
+      <Position>6</Position>
+      <Comment>博文状态</Comment>
+      <DataType>varchar(8)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <key id="22" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="23" parent="15" name="Id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="15" name="username">
+      <Position>2</Position>
+      <Comment>用户姓名</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="25" parent="15" name="password">
+      <Position>3</Position>
+      <Comment>用户密码</Comment>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="26" parent="15" name="mail">
+      <Position>4</Position>
+      <Comment>用户邮箱</Comment>
+      <DataType>varchar(128)|0</DataType>
+    </column>
+    <key id="27" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
