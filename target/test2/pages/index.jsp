@@ -55,9 +55,9 @@
 <nav class="menu" id="theMenu">
     <div class="menu-wrap">
         <c:if test="${me != null}">
-            <a href="//logout" style="font-style: inherit">logout</a>
+            <a href="logout.do" style="font-style: inherit">logout</a>
         </c:if>
-        <h1 class="logo"><a href="//toIndex.do">realife</a></h1>
+        <h1 class="logo"><a href="toIndex.do">realife</a></h1>
         <i class="icon-remove menu-close"></i>
 
         <c:if test="${me != null}">
