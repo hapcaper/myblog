@@ -58,10 +58,9 @@ public class BlogController {
 		
 		return "index";
 	}
-	@RequestMapping("toIndex.do")
+	@RequestMapping("/toIndex.do")
 	public String toIndex(HttpSession session, Model model){
 		List<Blog> bloglist = blogService.select_Id_Title();
-		System.out.println(bloglist.size());
 		session.setAttribute("bloglist", bloglist);
 		Blog blog = blogService.selectBlogById(1);
 		model.addAttribute("theblog", blog);
@@ -71,9 +70,7 @@ public class BlogController {
 	
 	@RequestMapping("toBlog.do")
 	public String toBlog(Model model,HttpSession session,@RequestParam("id")int id){
-		System.out.println("iiiiiiiddddddd======"+id);
 		List<Blog> bloglist = blogService.select_Id_Title();
-		System.out.println(bloglist.size());
 		session.setAttribute("bloglist", bloglist);
 		Blog blog = blogService.selectBlogById(id);
 		model.addAttribute("theblog", blog);
@@ -83,7 +80,6 @@ public class BlogController {
 	@RequestMapping("toEdit.do")
 	public String toEdit(Model model,HttpSession session){
 		List<Blog> bloglist = blogService.select_Id_Title();
-		System.out.println(bloglist.size());
 		session.setAttribute("bloglist", bloglist);
 		return "edit";
 		
@@ -95,7 +91,6 @@ public class BlogController {
 		 b.setTitle(request.getParameter("title"));
 		 b.setContent(request.getParameter("content"));
 		 b.setStatus("1");
-		 System.out.println(b);
 		 blogService.insertBlog(b);
 //		 try {
 //			PrintWriter pw = response.getWriter();
@@ -112,7 +107,6 @@ public class BlogController {
 	}
 	@RequestMapping("deleteBlog.do")
 	public String deleteBlog(Model model,HttpSession session,@RequestParam("id")int id) {
-		System.out.println("iiiiiiiddddddd======"+id);
 		Blog blog = blogService.selectBlogById(id);
 		blog.setStatus("0");
 		blogService.updateBlogStatus(blog);

@@ -16,7 +16,12 @@ public interface BlogDao {
 		
 		//查询某个人所有博文
 		public List<Blog> selectAllByAuthor(String author);
-		
+
+		List<String> findTitle();
+
+        List<Blog> findFirst20ByAuthor(@Param("author")String author);
+
+
 		
 		//保存博文
 		public int insertBlog(Blog blog);

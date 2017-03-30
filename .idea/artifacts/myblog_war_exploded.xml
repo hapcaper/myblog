@@ -32,6 +32,9 @@
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.27" />
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.1" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M3" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0-M1" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M3" />
         </element>
       </element>
       <element id="directory" name="META-INF">

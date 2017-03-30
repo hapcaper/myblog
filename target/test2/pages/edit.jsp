@@ -10,8 +10,7 @@
 <html>
 <head>
 <base href="<%=basePath%>">
-
-<title>lizihao's personal blog</title>
+	<title>Welcome To Realife's Blog</title>
 
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
@@ -60,20 +59,20 @@
 
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#theMenu"style="background-color: black">
+<body data-spy="scroll" data-offset="0" data-target="#theMenu"style="background-color: rgba(7,7,7,0.92)">
 
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 	<div class="menu-wrap">
 		<h1 class="logo">
-			<a href="index.html#home">realife</a>
+			<a href="//toIndex.do">realife</a>
 		</h1>
 		
-		 		<c:forEach items="${bloglist }" var="blog">
+		<c:forEach items="${bloglist }" var="blog">
 				  <a href="toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
 					<a href="deleteBlog.do?id=${blog.id }">删除</a>
 				<br>
-			</c:forEach>
+		</c:forEach>
 	</div>
 
 	<!-- Menu button -->
@@ -135,7 +134,7 @@
 	</div>
 	</div> -->
 	<div style="margin-left: 80px;margin-right: 80px;margin-bottom: 40px">
-	<div id="div1" style="height: 500px;background-color: black" >
+	<div id="div1" style="height: 500px;background-color: rgba(0,0,0,0.93)" >
 		<p>请输入内容...</p>
 	</div>
 	</div>

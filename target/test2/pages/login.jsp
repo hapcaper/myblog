@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'index.jsp' starting page</title>
+    <title>Welcome To Realife's Blog</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -62,22 +62,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="#">realife</a></h1>
-			<i class="icon-remove menu-close"></i>
-			<a href="#home" class="smoothScroll">HomeHomeHomeHomeHomeHomeHomeHomeHomeHome</a>
-			<br>
-			<a href="#about" class="smoothScroll">About</a>
-			<c:forEach items="${titlelist }" var="title">
-				<a href="" class="smoothScroll">Contact</a>
-				<br>
-			</c:forEach>
-			
+			<h1 class="logo"><a href="//toIndex.do">realife</a></h1>
+
+
 			<a href="#"><i class="icon-facebook"></i></a>
 			<a href="#"><i class="icon-twitter"></i></a>
 			<a href="#"><i class="icon-dribbble"></i></a>
 			<a href="#"><i class="icon-envelope"></i></a>
 		</div>
-		
+
 		<!-- Menu button -->
 		<div id="menuToggle"><i class="icon-reorder"></i></div>
 	</nav>
@@ -95,7 +88,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="row">
 				<h1>REALIFE</h1>
 				<br>
-				<h3>Hello, I'm Lizihao. I love game.</h3>
+				<h3>Hello Boy.</h3>
 				<br>
 				<br>
 				<div class="col-lg-6 col-lg-offset-3">
