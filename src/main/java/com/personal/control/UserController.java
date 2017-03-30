@@ -23,8 +23,7 @@ public class UserController {
 	 private UserService userService;
 	
 
-	@Test
-	@RequestMapping("/login")
+	@RequestMapping("/login.do")
 	public String login(HttpSession session, String username, String password, SessionScope sessionScope){
 		
 		User user=userService.findUserByName(username);
@@ -36,16 +35,12 @@ public class UserController {
 			return "login";
 
 		session.setAttribute("me", user);
-		String s = session.getAttribute("me").toString();
-		System.out.printf("*****************"+s);
 
 		return "redirect:toEdit.do";
 	}
-    @RequestMapping("/logout")
+    @RequestMapping("logout.do")
 	public String logout(HttpSession session){
-        System.out.printf("555555555555555"+session.getAttribute("me").toString());
 		session.removeAttribute("me");
-        System.out.printf("666666666666666666"+session.getAttribute("me").toString());
 		return "login";
 	}
 	

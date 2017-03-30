@@ -37,4 +37,5 @@ public interface BlogDao {
 		public int deleteBlogById(@Param("id") int id);
 
 
+
 }

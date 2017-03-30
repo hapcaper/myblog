@@ -64,8 +64,11 @@
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 	<div class="menu-wrap">
+        <c:if test="${me != null}">
+            <a href="logout.do" style="font-style: inherit">logout</a>
+        </c:if>
 		<h1 class="logo">
-			<a href="//toIndex.do">realife</a>
+			<a href="toIndex.do">realife</a>
 		</h1>
 		
 		<c:forEach items="${bloglist }" var="blog">
