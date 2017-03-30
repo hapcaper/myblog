@@ -27,7 +27,9 @@ public interface BlogDao {
 		public List<Blog> select_Id_Title();
 		
 		public Blog selectBlogById(@Param("id") int id);
-		
+
+		//删除博客（将其状态至0）
 		public int deleteBlogById(@Param("id") int id);
-	
+
+
 }
