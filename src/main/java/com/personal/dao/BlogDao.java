@@ -36,6 +36,9 @@ public interface BlogDao {
 		//删除博客（将其状态至0）
 		public int deleteBlogById(@Param("id") int id);
 
+        public Blog findFirst1ByStatus(@Param("status")String status);
+
+
 
 
 }

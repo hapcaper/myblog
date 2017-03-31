@@ -62,7 +62,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="//toIndex.do">realife</a></h1>
+			<h1 class="logo"><a href="toIndex.do">realife</a></h1>
 
 
 			<a href="#"><i class="icon-facebook"></i></a>
