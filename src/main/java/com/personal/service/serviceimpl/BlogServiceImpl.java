@@ -49,15 +49,22 @@ public class BlogServiceImpl implements BlogService {
 		return blogDao.selectBlogById(id);
 	}
 
-	public int deleteBlogById(int id) {
-		deleteBlogById(id);
-		return 0;
-	}
+    @Override
+    public int deleteBlogById(int id) {
+        return 0;
+    }
+
 
     @Override
-    public Blog findFirst1ByStatus(String status) {
-	    Blog blog = blogDao.findFirst1ByStatus(status);
+    public Blog findFirstbyStatus(String status) {
+        Blog blog = blogDao.findFirstbyStatus(status);
         return blog;
+    }
+
+    @Override
+    public List<Blog> findIdAndTitleByStatus(String status) {
+	    List<Blog> blogs = blogDao.findIdAndTitleByStatus(status);
+        return blogs;
     }
 
 

@@ -36,7 +36,7 @@ public class UserController {
 
 		session.setAttribute("me", user);
 
-		return "redirect:toEdit.do";
+		return "redirect:blog/toEdit.do";
 	}
     @RequestMapping("logout.do")
 	public String logout(HttpSession session){

@@ -57,12 +57,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
   </head>
   
-  <body data-spy="scroll" data-offset="0" data-target="#theMenu" style="background-color: black">
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu" style="background-color: rgba(7,7,7,0.92)">
 		
 	<!-- Menu -->
 	<nav class="menu" id="theMenu">
 		<div class="menu-wrap">
-			<h1 class="logo"><a href="toIndex.do">realife</a></h1>
+			<h1 class="logo"><a href="blog/toIndex.do">realife</a></h1>
 
 
 			<a href="#"><i class="icon-facebook"></i></a>

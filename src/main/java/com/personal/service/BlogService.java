@@ -27,5 +27,7 @@ public interface BlogService {
 			
 			public int deleteBlogById(int id);
 
-			public Blog findFirst1ByStatus(String status);
+			public Blog findFirstbyStatus(String status);
+
+			public List<Blog> findIdAndTitleByStatus(String status);
 }

@@ -68,12 +68,12 @@
             <a href="logout.do" style="font-style: inherit">logout</a>
         </c:if>
 		<h1 class="logo">
-			<a href="toIndex.do">realife</a>
+			<a href="blog/toIndex.do">realife</a>
 		</h1>
 		
 		<c:forEach items="${bloglist }" var="blog">
-            <a href="toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
-					<a href="deleteBlog.do?id=${blog.id }">删除</a>
+				  <a href="blog/toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
+					<a href="blog/deleteBlog.do?id=${blog.id }">删除</a>
 				<br>
 		</c:forEach>
 	</div>
@@ -156,7 +156,6 @@
 <!-- wangEditor -->
 <script type="text/javascript" src="dist/js/lib/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="dist/js/wangEditor.min.js"></script>
-<script type="text/javascript" src="../myjs/util.js"></script>
 <script type="text/javascript">
 	$(function() {
 		var editor = new wangEditor('div1');
@@ -188,7 +187,7 @@ function submit(){
         var title1 = $('#title').text();
         
         $.ajax({
-          url: "postBlog.do",
+          url: "blog/postBlog.do",
           type: "POST",
           dataType: "json",
           data: {
@@ -197,10 +196,10 @@ function submit(){
           },
           success: function(data) {
             alert("success");
-           	location.href="toIndex.do"
+           	location.href="blog/toIndex.do"
           }
         });
-		location.href="toIndex.do";
+		location.href="blog/toIndex.do";
 	/* 	$.post("postBlog.do",
    		 {
       title:title1,
@@ -208,13 +207,9 @@ function submit(){
   		  }); */
 
 }
-
-//function get_blog_to_edit(blogid) {
-//    $.getJSON("http://127.0.0.1:8080/myblog/getBlogToEdit.do?id="+blogid,function (data) {
-//        set_content_in_editor(data.content);
-//    })
+//function ss() {
+//    var s = document.createElement("li");
 //}
-
 </script>
 </body>
 </html>

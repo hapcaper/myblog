@@ -49,7 +49,7 @@
 
 </head>
 
-<body data-spy="scroll" data-offset="0" data-target="#theMenu">
+<body data-spy="scroll" data-offset="0" data-target="#theMenu" style="background-color: rgba(7,7,7,0.92)">
 
 <!-- Menu -->
 <nav class="menu" id="theMenu">
@@ -57,19 +57,19 @@
         <c:if test="${me != null}">
             <a href="logout.do" style="font-style: inherit">logout</a>
         </c:if>
-        <h1 class="logo"><a href="toIndex.do">realife</a></h1>
+        <h1 class="logo"><a href="blog/toIndex.do">realife</a></h1>
         <i class="icon-remove menu-close"></i>
 
         <c:if test="${me != null}">
             <c:forEach items="${bloglist }" var="blog">
-                <a href="toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
-                <a href="deleteBlog.do?id=${blog.id }">删除</a>
+                <a href="blog/toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
+                <a href="blog/deleteBlog.do?id=${blog.id }">删除</a>
                 <br>
             </c:forEach>
         </c:if>
         <c:if test="${me == null}">
             <c:forEach items="${bloglist }" var="blog">
-                <a href="toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
+                <a href="blog/toBlog.do?id=${blog.id }" class="smoothScroll">${blog.title }</a>
                 <br>
             </c:forEach>
 
