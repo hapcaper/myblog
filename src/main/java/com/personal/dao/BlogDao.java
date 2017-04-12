@@ -40,6 +40,10 @@ public interface BlogDao {
 
         List<Blog> findIdAndTitleByStatus(@Param("status")String status);
 
+        Blog findById(@Param("id")Integer id);
+
+
+
 
 
 }
