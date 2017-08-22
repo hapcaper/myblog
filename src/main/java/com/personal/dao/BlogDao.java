@@ -16,7 +16,12 @@ public interface BlogDao {
 		
 		//查询某个人所有博文
 		public List<Blog> selectAllByAuthor(String author);
-		
+
+		List<String> findTitle();
+
+        List<Blog> findFirst20ByAuthor(@Param("author")String author);
+
+
 		
 		//保存博文
 		public int insertBlog(Blog blog);
@@ -30,6 +35,10 @@ public interface BlogDao {
 
 		//删除博客（将其状态至0）
 		public int deleteBlogById(@Param("id") int id);
+
+        public Blog findFirst1ByStatus(@Param("status")String status);
+
+
 
 
 }

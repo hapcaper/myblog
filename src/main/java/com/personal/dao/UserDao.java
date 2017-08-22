@@ -10,6 +10,4 @@ public interface UserDao {
 	
 	public User findUserByName(String username);
 
-
-
 }
